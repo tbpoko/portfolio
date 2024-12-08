@@ -1,63 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Who is Therese?</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Who is Therese?</h1>
-    <p>Therese is a Chicagoan, Pisces and Creative Strategist. She is based in Juneau, Alaska.</p>
-  </header>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <nav>
-    <ul>
-      <li><a href="#About">About</a></li>
-      <li><a href="#Selected Projects">Portfolio</a></li>
-    </ul>
-  </nav>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Welcome to my portfolio! I’m Therese, a copywriter and brand strategist with a passion for social media and storytelling...</p>
-  </section>
+header {
+  text-align: center;
+  margin-top: 20px;
+}
 
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <h3>Copywriting</h3>
-    <ul>
-      <li><a href="https://www.linkedin.com/posts/jpmorganprivatebank-us_proud-us-open-sponsor-for-41-years-i-jp-activity-6970105372762132480-6mMu">U.S. Open Campaign</a></li>
-      <!-- Add more links to work here -->
-    </ul>
-    <h3>Social Media</h3>
-    <ul>
-      <li><a href="https://sealaska.org/">Sealaska Heritage Institute</a></li>
-      <!-- Add more links to social media projects -->
-    </ul>
-    <h3>Photography</h3>
-    <div class="gallery">
-      <!-- Insert photos -->
-    </div>
-  </section>
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
-  <section id="newsletter">
-    <h2>Subscribe to My Newsletter</h2>
-    <form action="subscribe.php" method="POST">
-      <input type="email" name="email" placeholder="Your email" required>
-      <button type="submit">Subscribe</button>
-    </form>
-  </section>
+p {
+  font-size: 1.2rem;
+}
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email me at <a href="mailto:therese@example.com">therese@example.com</a></p>
-  </section>
+nav {
+  text-align: center;
+  margin-top: 30px;
+}
 
-  <footer>
-    <p>© 2024 Therese Pokorney</p>
-  </footer>
-</body>
-</html>
+nav ul {
+  list-style: none;
+}
 
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1rem;
+  color: #777;
+}
+
+#projects ul {
+  list-style: none;
+  padding: 20px;
+  text-align: center;
+}
+
+#projects ul li {
+  margin: 15px 0;
+}
+
+#projects ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #0073e6;
+}
+
+#project-details img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+#project-details p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
